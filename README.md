@@ -14,7 +14,7 @@ You can think of it as the App Store, or Steam, but for Web3 -- no reliance on a
 
 Right now, software distribution is relying entirely on centralized web2 companies to distribute and publish our software.
 
-Imagine you're building an app or game for months, or years, putting your hard work, love, and energy into it -- finally the day comes where you're ready to share it with the world! Next thing you know, you're being interrogated by your app store/distributor for countless details, jumping through the hoops of their release process, and when they finally take your app's build, you can only hope they let it pass through the gates! Then, if you manage to get your app published, they take 30+% of your hard earned revenue!
+Imagine you're building an app or game for months, or years, putting your hard work, love, and energy into it -- finally the day comes when you're ready to share it with the world! Next thing you know, you're being interrogated by your app store/distributor for countless details, jumping through the hoops of their release process, and when they finally take your app's build, you can only hope they let it pass through the gates! Then, if you manage to get your app published, they take 30+% of your hard earned revenue!
 
 There are so many problems with this. The craziest part is:
 
@@ -66,7 +66,7 @@ An example of a Valist Release on-chain looks like:
 
 Gateway URLs are stored with `https://gateway.valist.io/ipfs/` as the prefix, but you can easily strip this away and fetch the CID directly from IPFS! The Valist clients do this automatically, and load from native IPFS wherever possible.
 
-Valist is **fully decentralized**, meaning you can run Valist entirely local, plugging in your own web3 infrastructure, without depending on a single point of failure. All you need is a Polygon RPC node, an IPFS node (or use the embedded node with Sapphire!), and a Valist Subgraph endpoint.
+Valist is **fully decentralized**, meaning you can run Valist entirely locally, plugging in your own web3 infrastructure, without depending on a single point of failure. All you need is a Polygon RPC node, an IPFS node (or use the embedded node with Sapphire!), and a Valist Subgraph endpoint.
 
 Valist.io is simply a hosted version of the Valist protocol, with some extra performance and services on top!
 
